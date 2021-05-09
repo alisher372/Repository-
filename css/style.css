@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'impact_labelregular';
+    src: url('../font/Impact_Label-webfont.eot');
+    src: url('../font/Impact_Label-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Impact_Label-webfont.woff2') format('woff2'),
+         url('../font/Impact_Label-webfont.woff') format('woff'),
+         url('../font/Impact_Label-webfont.ttf') format('truetype'),
+         url('../font/Impact_Label-webfont.svg#impact_labelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.html {
+	height: 198px;
+
+	/*background: repeating-linear-gradient(45deg, #B9ECFE, #B9ECFE 10px, #82DDFF 10px, #82DDFF 20px);*/
+}
+
+body {
+	margin: 0;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-size: 14px;
+}
+
+h1 {
+	font-weight: normal;
+	margin: 1px auto;
+	padding: 3px 0px 0px 0px;
+	font-size: 7em;
+	font-family: 'impact_labelregular';
+	color: #039c01;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 1.5em;
+	margin-block-start:0;
+	margin-block-end:0;
+	font-family: "Bahnschrift Light Condensed";
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 1.2em;
+	margin-block-start:0;
+	margin-block-end:0;
+	font-family: "Bahnschrift Light Condensed";
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.container {
+	/*width: 100%;
+	max-width: 1100px;*/
+	margin: 0 50px;
+	padding: 5px;
+	border-radius: 20px;
+}
+
+.header {
+
+}
+
+.header__1 {
+	margin: 10px auto;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__picture {
+	margin: 0 auto;
+}
+
+.nav {
+	/*max-width: 1000px;*/
+	margin: 15px 50px;
+	box-shadow: 2px 3px 8px #000;
+	border-radius: 15px;
+	padding: 0px 30px 3px 30px;
+	text-transform: uppercase;
+	align-items: center;
+	background-image: radial-gradient(circle, #00baff, #003042);
+	text-align: right;
+	font-size: 16px;
+}
+
+.nav__link {
+	margin: 0 5px;
+	color: #ff0000;
+	text-decoration: none;
+	opacity: .75;
+	transition: opacity 0.1s linear;
+	font-weight: bold;
+}
+.nav__link:hover {
+	color: #ff0000;
+	opacity: 1;
+}
+
+.intro {
+	margin: 60px 150px;
+	display: flex;
+	/*flex-direction: row;*/
+}
+
+
+.intro__1 {
+	width: 200px;
+	box-shadow: 2px 3px 8px #000;
+	background-image: radial-gradient(circle, #00baff, #003042);
+	padding: 5px;
+	border-radius: 20px;
+}
+
+.intro__2 {
+	padding: 5px;
+	border-radius: 20px;
+}
+
+.intro__3 {
+	margin: 5px 50px 15px 10px;
+	width: 100%;
+	box-shadow: 2px 3px 8px #000;
+	background-image: radial-gradient(circle, #00baff, #003042);
+	padding: 5px;
+	border-radius: 20px;
+	align-items: center;
+	text-align: center;
+}
+
+.footer {
+
+}
+
+.bottom {
+
+}
+
+.bottom__1 {
+	margin: 15px 200px;
+	box-shadow: 2px 3px 8px #000;
+	border-radius: 15px;
+	padding: 3px 30px 0px;
+	align-items: center;
+	background-image: radial-gradient(circle,#00baff, #003042);
+	text-align: center;
+}
+
+.bottom__pic {
+	padding: 0 15px 0 15px;
+	align-items: center;
+	text-align: center;
+}
+
+.bio {
+	margin: 0px 0px;
+	box-shadow: 2px 3px 8px #000;
+	background-image: radial-gradient(circle,#00baff, #003042);
+	border-radius: 15px;
+	padding: 3px 30px 0px;
+	border-bottom: 2px solid #000;
+}
+
+.intro_pic {
+	width: 200px;
+	box-shadow: 2px 3px 8px #000;
+	background-image: radial-gradient(circle, #00baff, #003042);
+	padding: 5px;
+	border-radius: 20px;
+	float: right;
+	margin: 20px 0px;
+}
+
+.intro_pic1 {
+	padding: 5px;
+	border-radius: 20px;
+	float: right;
+}
+
+.ft {
+	margin: 0px 0px;
+	box-shadow: 2px 3px 8px #000;
+	background-image: radial-gradient(circle,#00baff, #003042);
+	border-radius: 15px;
+	padding: 3px 30px 0px;
+	border-bottom: 2px solid #000;
+	height: 500px;
+}
+
+.hobby {
+	margin: 0px 0px;
+	padding: 5px;
+	border-bottom: 2px solid #000;
+
+}
+
+.gallery{
+	margin: 0px 0px;
+	padding: 50px 50px 50px 85px;
+}
+
+.img{
+	border-radius: 20px
+}
+
+.pref {
+	box-shadow: 2px 3px 8px #000;
+	background-image: radial-gradient(circle,#00baff, #003042);
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.pref_pic {
+	width: 200px;
+	box-shadow: 2px 3px 8px #000;
+	/*background-image: linear-gradient(180deg, #00baff, #003042);*/
+	padding: 5px;
+	border-radius: 20px;
+	float: right;
+	margin: 20px 0px;
+}
+
+.theme-button
+{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: inline-block;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 55px 50px;
+}
+

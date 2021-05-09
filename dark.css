@@ -1,0 +1,23 @@
+body
+{
+	background-image: url(img/MainPage/BackGround1.jpg);
+}
+
+.theme-button
+{
+    color: #000;
+    background: #00baff;
+}
+
+.theme-button:hover
+{
+    background: #0499d0;
+}
+
+h1 {
+		color: #00baff;
+}
+
+.img{background-image: radial-gradient(circle, #00baff, #003042);}
+
+.tree {background-image: radial-gradient(circle, #00baff, #003042);}

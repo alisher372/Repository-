@@ -1,0 +1,38 @@
+body
+{
+	background-image: url(img/MainPage/BackGround2.jpg);
+}
+
+.theme-button
+{
+    color: #000;
+    background: #63da61;
+}
+
+.theme-button:hover
+{
+    background: #439641;
+}
+
+.nav {
+	background-image: radial-gradient(circle, #039c01, #025d00);
+}
+
+
+.intro__1 {background-image: radial-gradient(circle, #039c01, #025d00);}
+
+.intro__3 {background-image: radial-gradient(circle, #039c01, #025d00);}
+
+.bottom__1 {background-image: radial-gradient(circle, #039c01, #025d00);}
+
+.bio {background-image: radial-gradient(circle, #039c01, #025d00);}
+
+.intro_pic {background-image: radial-gradient(circle, #039c01, #025d00);}
+
+.gamma-gallery {background-image: radial-gradient(circle, #039c01, #025d00);}
+
+.img {background-image: radial-gradient(circle, #039c01, #025d00);}
+
+.tree {background-image: radial-gradient(circle, #039c01, #025d00);}
+
+.pref {background-image: radial-gradient(circle, #039c01, #025d00);}
